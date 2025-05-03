@@ -26,8 +26,8 @@ hello, world! :>
 		- too small slew-rate (not enough for 100kHz)
 	- [fig] the whole circuit
 	- so we choose RC for 265kHz, get 100kHz
-	- [plot] sine and cosine transient
-	- [plot] phase difference 90 through fft
+	- [plot: 2quadosctrans.png] sine and cosine transient
+	- [plot: 2quadoscfftphase.png] phase difference 90 through fft
 
 ### 3. mixer
 - what does it do: (((multiply))) two signals (technically just "imbibing" freq of one into another)
@@ -36,21 +36,41 @@ hello, world! :>
 	- [fig] diagram
 	- relevant equations
 	- [plots] for each fin
+		- 3mixer95ktrans.png
+		- 3mixer95kfft.png
+		- 3mixer98ktrans.png
+		- 3mixer98kfft.png
+		- 3mixer99ktrans.png
+		- 3mixer99kfft.png
+		- 3mixer101ktrans.png
+		- 3mixer101kfft.png
+		- 3mixer102ktrans.png
+		- 3mixer102kfft.png
+		- 3mixer105ktrans.png
+		- 3mixer105kfft.png
 
 ### 4. low pass filter
 - what does it do: attenuate freq after cutoff
 - how does it work:
 	- low freq stays, high freq leaves
 - design for 2kHz
-- [plot] bode plots for 2kHz filters
+- [plot 4lpfbode.png] bode plots for 2kHz filters
 - [plots] transient response for 1kHz and 10kHz
+<<<<<<< HEAD
 - [plot] connect mixer show transient plots and fft for 99kHz and 95kHz
   	- State for all other values that we used in mixer LPF will filter them out. (reason) 
+=======
+	- 4lpf1k.png
+	- 4lpf10k.png
+- [plots] connect mixer show transient plots and fft for 99kHz and 95kHz
+	- 4lpf95k.png
+	- 4lpf99k.png
+>>>>>>> 292fe7d (added plots and updated README)
 
 ### 5. complete prototype
 - complete working in detail
-- [plots] transient input, osci, in phase mixed, in phase low pass, quad mixed, quad low pass (show phase diff)
-- [plots] fft of if (low pass) and qf (low pass), find phase of final i, q
+- [plots 5tottrans.png] transient input, osci, in phase mixed, in phase low pass, quad mixed, quad low pass (show phase diff)
+- [plots 5totfft.png 5totfft98k53k.png] fft of if (low pass) and qf (low pass), find phase of final i, q
 - [table] simul values
 
 ### 6. references
