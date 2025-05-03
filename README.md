@@ -45,6 +45,7 @@ hello, world! :>
 - [plot] bode plots for 2kHz filters
 - [plots] transient response for 1kHz and 10kHz
 - [plot] connect mixer show transient plots and fft for 99kHz and 95kHz
+  	- State for all other values that we used in mixer LPF will filter them out. (reason) 
 
 ### 5. complete prototype
 - complete working in detail
