@@ -7,7 +7,7 @@ hello, world! :>
 - how does it work (vaguely)
 	- qf if thing
 	- equations
-	- [fig] diagram
+	- [fig qdc] diagram
 
 ### 1.5 bonus question (not mandatory)
 - explain utility/need of quadrature operation
@@ -33,7 +33,7 @@ hello, world! :>
 - what does it do: (((multiply))) two signals (technically just "imbibing" freq of one into another)
 - how does it work
 	- operation regions (biased at threshold): cutoff and triode
-	- [fig] diagram
+	- [fig mixer] diagram
 	- relevant equations
 	- [plots] for each fin
 		- 3mixer95ktrans.png
@@ -65,7 +65,6 @@ hello, world! :>
 - [plots] connect mixer show transient plots and fft for 99kHz and 95kHz
 	- 4lpf95k.png
 	- 4lpf99k.png
->>>>>>> 292fe7d (added plots and updated README)
 
 ### 5. complete prototype
 - complete working in detail
